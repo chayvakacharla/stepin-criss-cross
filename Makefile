@@ -1,8 +1,8 @@
-PROJECT_NAME = TicTacToe
+PROJECT_NAME = crisscross
 
 BUILD = build
 
-SRC = TicTacToe_main.c\
+SRC = crisscross_main.c\
 src/Best_score.c\
 src/Check_state.c\
 src/Draw_board.c\
@@ -12,7 +12,7 @@ TEST_SRC = src/Best_score.c\
 src/Check_state.c\
 src/Draw_board.c\
 src/Player_input.c\
-test/Test_TicTacToe.c\
+test/Test_crisscross.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
