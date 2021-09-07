@@ -7,7 +7,7 @@
 #include<Draw_board.h>
 #include<Player_input.h>
 
-#define PROJECT_NAME "TicTacToe"
+#define PROJECT_NAME "crisscross"
 
 void test_Token_X(void);
 void test_Token_O(void);
